@@ -1,0 +1,52 @@
+[{
+		"name": "BMW",
+		"model": "7-series",
+		"color": "blue",
+		"available": true
+
+	},
+	{
+		"name": "Audi",
+		"model": "R8",
+		"color": "yellow",
+		"available": true
+
+	},
+	{
+		"name": "lambo",
+		"model": "Huracan Performante",
+		"color": "pink",
+		"available": true
+
+	},
+	{
+		"name": "Ferarri",
+		"model": "458-Italia",
+		"color": "green",
+		"available": true
+
+	},
+	{
+		"name": "Mercedes",
+		"model": "E-63 Amg",
+		"color": "grey",
+		"available": true
+
+	},
+	{
+		"name": "Ford",
+		"model": "GT",
+		"color": "red",
+		"available": true
+
+	},
+	{
+		"name": "Mini",
+		"model": "Convertible",
+		"color": "brown",
+		"available": true
+
+
+	}
+
+]

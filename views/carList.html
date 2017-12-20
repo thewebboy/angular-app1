@@ -1,0 +1,19 @@
+<div class="content">
+    <h1>Car List:</h1>
+    <button ng-click="order = 'name'">Order by Name</button>
+    <button ng-click="order = 'color'">Order by color</button>
+    <input type="text" ng-model="search" placeholder="Search For Cars"/>
+      <ul>
+          <li ng-repeat="car in cars | filter: search | orderBy: order" ng-show="car.available">
+            <h3>{{car.name}} - {{car.model}}</h3>
+            <div class="remove" ng-click="removeCar(car)">x</div>
+            <span class="belt" style="background: {{car.color}}">{{car.color}}</span>
+          </li>
+      </ul>
+      <form ng-submit="addNewCar()">
+        <input type="text" placeholder="Name" ng-model="newcar.name" />
+        <input type="text" placeholder="Model" ng-model="newcar.model" />
+        <input type="text" placeholder="Color" ng-model="newcar.color" />
+        <input type="submit" value="Add New Car" />
+      </form>
+</div>
